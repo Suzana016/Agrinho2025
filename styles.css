@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f0f0f0;
+  color: #1a1a1a;
+}
+
+header {
+  background-color: #004d26;
+  color: #a8ff98;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.5rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #d0ffd0;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.receita {
+  background-color: #d6f5d6;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+.receita img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.receita div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.receita h2 {
+  color: #145214;
+}
